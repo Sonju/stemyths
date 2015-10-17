@@ -1,17 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+ <% include head %>
+
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
+
   <body class="myth1">
   	<div class="container-fluid">
     	<div class="row">
-    		<h1 class="text-right">I Am Woman. I Can't Code</h1>
+    		<!-- <h1 class="text-right">I Am Woman. I Can't Code</h1> -->
+
+          <h3 class="text-center">Myth: I Have To Master Mathematics To Learn Programming Languages</h3>
+      <section>
+        <div class="col-xs-9 col-sm-6 col-md-6">
+          <p class="text-justify">
+            People confuse of the relationship between mathematics
+            and programming because they want a flat out answer
+            of ‘Yes’ or ‘No’. In reality, the answer is more
+            towards "it depends, but mostly not". As a programmer,
+            we <b>spend most of our time writing code, not
+            Math formulas</b>, and your knowledge in Math is
+            not directly proportional to your programming
+            skill.</p>
+          <p class="text-justify">  Don’t get me wrong though, <b>we still need</b> basic algebra,
+            but it’s basic, and well, it’s just algebra. Besides,
+            there are <b>libraries and plugins</b>, which you can apply
+            directly into your code to help you solve mathematical
+            and algorithmic problems.
+          </p>
+          <div class="row">
+            <button type="button" class="btn btn-primary">More Info</button>
+            <a href="/myfavs"><button type="button" class="btn btn-warning">Favorite</button></a>
+            <button type="button" class="btn btn-info">Share</button>
+
+          </div>
+        </div>
+        <div class="col-xs-3 col-sm-6 col-md-6">
+          <img src="stylesheets/images/mathcat.jpeg" alt="Math Cat" style="width:450px;height:300px;">
+        </div>
+      </div>
+    </section>
+
     	</div>
     	<div class="row">
-    		<button class="btn btn-default" type="button">Wait, what?!</button>
+    		<button type="button" class="btn btn-default btn-lg">Next</button>
     	</div>
     </div>
+
+    <% include footer %>
+
   </body>
 </html>

@@ -16,5 +16,10 @@ router.get('/myth1', function(req, res, next) {
   res.render('myth1', { title: 'STEMyths' });
 });
 
+/* GET myfavs page. */
+router.get('/myfavs', function(req, res, next) {
+  res.render('myfavs', { title: 'STEMyths' });
+});
+
 
 module.exports = router;

@@ -1,0 +1,17 @@
+section {
+  margin-top: 70px;
+}
+
+footer {
+  position: fixed!important;
+  bottom: 0!important;
+  left: 0!important;
+  margin-left: 43%;
+}
+
+
+/*My Favs Page*/
+
+.favpics {
+  margin 5% 0 5% 0;
+}
