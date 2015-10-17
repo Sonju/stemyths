@@ -6,3 +6,25 @@ body {
 a {
   color: #00B7FF;
 }
+
+.main {
+	background-image: url(images/landing.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.engineer {
+	background-image: url(images/engineer.jpg);
+}
+
+.math {
+	background-image: url(images/math.jpg);
+}
+
+.science {
+	background-image: url(images/science.jpg);
+}
+
+.software {
+	background-image: url(images/software.jpg);
+}
