@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 
 }
@@ -17,28 +17,75 @@ a {
 	margin-bottom: 60px;
 	
 }
+
 .btn {
 	margin-top: 50px;
 }
 
+.paths {
+	background-image: url(images/paths.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+}
+
+.myth-statement {
+	color: #D6741E;
+	background: rgba(255,255,255,.5);
+	position: absolute;
+	top: 100px;
+	left: 20px;
+}
+
+.intro-text {
+	font-size: 24px;
+}
+.career-header {
+	background-color: #D6741E;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.career-image{
+	height: 350px;
+	background: rgba(255,255,255,.5);
+}
+
 .engineer {
 	background-image: url(images/engineer.jpg);
+	background-repeat: no-repeat;
 }
 
 .math {
 	background-image: url(images/math.jpg);
+	background-repeat: no-repeat;
 }
 
 .science {
 	background-image: url(images/science.jpg);
+	background-repeat: no-repeat;
 }
 
 .software {
 	background-image: url(images/software.jpg);
+	background-repeat: no-repeat;
 }
 
 .myth1 {
 	background-image: url(images/mathcat.jpg);
+}
+
+.path-link{
+	color: #FFFFFF;
+	position: absolute;
+	top: 200px;
+	font-size: 24px;
+	font-weight: bold;
+	background: rgba(56,52,52,.7);
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
 footer {
