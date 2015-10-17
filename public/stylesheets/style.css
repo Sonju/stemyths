@@ -1,16 +1,24 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
 }
 
 a {
   color: #00B7FF;
 }
-
+.container-fluid {
+	max-width: 1079px;
+}
 .main {
 	background-image: url(images/landing.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
+	margin-bottom: 60px;
+	
+}
+.btn {
+	margin-top: 50px;
 }
 
 .engineer {
@@ -27,4 +35,16 @@ a {
 
 .software {
 	background-image: url(images/software.jpg);
+}
+
+.myth1 {
+	background-image: url(images/mathcat.jpg);
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+	text-align: right;
 }
